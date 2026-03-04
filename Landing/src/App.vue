@@ -1,11 +1,16 @@
 <script setup>
  import completo  from './components/Meio.vue';
  import Cabeca from './components/Cabeca.vue';
+ import Pessoa from './components/Pessoa.vue';
 </script>
 
 <template>
-    <Cabeca></Cabeca>
+<!--
+  <Cabeca></Cabeca>
     <completo></completo>
+-->
+<Pessoa/>
+
 
 
 </template>
